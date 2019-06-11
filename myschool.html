@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="myschool.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=East+Sea+Dokdo|Muli&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Glegoo&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Allerta+Stencil&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Open+Sans&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+ </head>
+<body>
+<div class="container-fluid">
+<div class="row bgjet">
+<div class="genrow">
+<div class="container">
+ <div class="col-sm-3 text-left"><a href="#" class="fa fa-facebook" target="_blank"></a>
+ <a href="#" class="fa fa-youtube" target="_blank"></a>
+ <a href="#" class="fa fa-twitter" target="_blank"></a></div>
+<div class="col-sm-9 text-right inline"><marquee>Admissions Open! Looking forward to meeting you all soon!</marquee></div>
+</div></div></div>
+<div class="row grad1">
+ <div class="genrow pdt">
+ <div class="container ">
+ <div class="col-sm-6 text-left">
+ <img src="logo.png" class="logo img-circle">
+ <h1 class="school">MY SCHOOL </h1>
+ </div>
+ <div class="col-sm-6 medhid">
+ <ul class="link">
+	<li class="brd"><span class="email">Email</span>
+	<a href="#">myschool@gmail.com</a></li>
+	<li><span class="email">Call Now</span>
+	<a href="#">(0260) 1233455 , 123456789 </a></li>
+</ul>
+</div></div></div></div>
+<div class="row">
+<div class="genrow">
+<div class="topnav" id="myTopnav">
+	<div class="container" >
+	<a href="#"class="active" >HOME</a>
+	<a href="#about">ABOUT</a>
+	<a href="#contact">CONTACT</a>
+	<a href="login1.html" >LOGIN</a>
+	<a href="register1.html" >REGISTER</a>
+	<a href="#gallery">GALLERY</a>
+
+	 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+  </div>
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script></div></div>
+ <div class="row"><div class="genrow">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="banner1.jpg" alt="Error" style="width:100%;">
+        <div class="carousel-caption">
+          <p class="caption">"Life must be lived and curiosity kept alive. One must never, for whatever reason, turn his back on life."
+		  ~ My School</p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="banner2.jpg" alt="Error" style="width:100%;">
+        <div class="carousel-caption">
+          <p class="caption">"Young people need to feel this sense of their own worth and importance, especially during the years between their childhood and maturity."
+		  ~ My School</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="banner3.jpg" alt="Error" style="width:100%;">
+        <div class="carousel-caption">
+          <p class="caption">"Nothing is of greater importance than the right early instruction of youth" - My School</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>  </div>	</div>
+<div class="container">
+<div class="row">
+<div class="col-sm-4"></div>
+<script>
+  AOS.init();
+</script>
+<div class="col-sm-4 text-center join" data-aos="fade-right"><a href="#contact">JOIN NOW </a></div>
+<div class="col-sm-4"></div>
+</div></div>
+<div class="container">
+ <div class="row paddinn">
+ <div class="genrow paddbot" id="about">
+ <div class="bgimg"><span class="wel">WELCOME TO</span>
+	<h4 class="my" >MY SCHOOL</h4></div>
+ <div class="col-sm-6">
+	<img src="Met.jpg" width="500px"></div>
+ <div class="col-sm-6 ">
+ <span class="kpn">A School should be a place of Light, of Liberty and of Learning.</span>
+ <p class="kp">Donec consequat sapien ut leo cursus rhoncus. Nullam dui mi, vulputate ac metus at, semper varius orci. Nulla accumsan ac elit in congue. Class aptent taciti sociosqu ad litora torquent per conubia.
+Donec consequat sapien ut leo cursus rhoncus. Nullam dui mi, vulputate ac metus at, semper varius orci. Nulla accumsan ac elit in congue. Class aptent taciti sociosqu ad litora torquent per.</p></div></div></div></div></div>
+<div class="container-fluid">
+<div class="row bgimg2 "><div class="genrow paddingk"><div class="container">
+<h1 class=" text-center"><span class="what"> WHAT WE DO? </span></h1>
+<div class="col-sm-3 bg ">
+<img src="">
+<p class="act">ACTIVE LEARNING</p>
+<p class="data">Itaque earum rerum hic tenetur asap iente delectus rulla accumsan.</p>
+<button class="button"><span class="span1">Read more </span></button>
+</div>
+<div class="col-sm-3 bg">
+<img src="">
+<p class="act">FULL DAY PROGRAMS</p>
+<p class="data">Itaque earum rerum hic tenetur asap iente delectus rulla accumsan.</p>
+<button class="button"><span class="span1">Read more </span></button>
+</div>
+<div class="col-sm-3 bg">
+<img src="">
+<p class="act">EXPERT TEACHERS</p>
+<p class="data">Itaque earum rerum hic tenetur asap iente delectus rulla accumsan.</p>
+<button class="button"><span class="span1">Read more </span></button></div>
+</div></div></div>
+<div class="row bgcol"><div class="genrow inner"><div class="container">
+<div class="col-sm-6 pdb">
+<div class="bo"><img src="assesment.png">
+<h3 class="head">
+<a href="#" alt="Error">Assessment and Examinations</a>
+</h3></div>
+</div>
+<div class="col-sm-6 pdb">
+<div class="bo"><img src="sports.png">
+<h3 class="head">
+<a href="#" alt="Error">Sports Corner</a>
+</h3></div>
+</div>
+</div></div>
+<div class="genrow "><div class="container">
+<div class="col-sm-6 pdb">
+<div class="bo"><img src="academic.png">
+<h3 class="head">
+<a href="#" alt="Error">Holidays 2018-19</a>
+</h3></div>
+</div>
+<div class="col-sm-6 pdb">
+<div class="bo"><img src="rules.png">
+<h3 class="head">
+<a href="#" alt="Error">School Rules</a>
+</h3></div>
+</div>
+</div></div></div>
+
+<div class="row pdbot"> <div class="genrow inner paddinn"><div class="container">
+<h2 class="text-left"><a href="#" title="Show all" class="abc">NEWS & ANNOUNCEMENTS : </a> </h2>
+
+<div class="col-sm-4 pdt1">
+<div class="view view-first pdt ">
+ <img src="thumb.jpg" />  
+     <div class="mask">  
+     <h2>News Title</h2>  
+     <p>Lorem Ipsum</p>  
+         <a href="#" class="info">Read More</a>  
+     </div>  
+</div></div>
+<div class="col-sm-4 pdt1">
+<div class="view view-first pdt">
+ <img src="thumb3.jpg" />  
+     <div class="mask">  
+     <h2>News Title</h2>  
+     <p>Lorem Ipsum</p>  
+         <a href="#" class="info">Read More</a>  
+     </div>  
+</div></div>
+<di v class="col-sm-4 pdt1">
+<div class="view view-first pdt">
+ <img src="thumb.jpg" />  
+     <div class="mask">  
+     <h2>News Title</h2>  
+     <p>Lorem Ipsum</p>  
+         <a href="#" class="info">Read More</a>  
+     </div>  
+</div></div>
+</div></div>
+
+
+<div class="container borderk" id="gallery">
+<div class="row"><div class="genrow"><div class="container ">
+<h2><a href="#"> Our Gallery </a> </h2>
+<div class="col-sm-4 pdt ">
+<div class="container2">
+<img src="g8.jpg" class="shrink" onclick="onClick(this)" class="modal-hover-opacity" ></div></div>
+
+<div class="col-sm-4 pdt">
+<div class="container2">
+<img src="g3.jpg" class="shrink" onclick="onClick(this)" class="modal-hover-opacity"  ></div></div>
+
+<div class="col-sm-4 pdt">
+<div class="container2">
+<img src="g5.jpg" class="shrink" onclick="onClick(this)" class="modal-hover-opacity"></div></div>
+
+
+<div id="modal01" class="modal" onclick="this.style.display='none'">
+  <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  <div class="modal-content">
+    <img id="img01" >
+  </div>
+</div>
+</div></div></div>
+<div class="row  pdt"><div class="genrow"><div class="container">
+<div class="col-sm-4 pdt ">
+<div class="container2">
+<img src="g4.jpg" class="shrink" onclick="onClick(this)" class="modal-hover-opacity" ></div></div>
+<div class="col-sm-4 pdt">
+<div class="container2">
+<img src="g6.jpg" class="shrink" onclick="onClick(this)" class="modal-hover-opacity"></div></div>
+<div class="col-sm-4 pdt">
+<div class=" container2">
+<img src="g2.jpg" class="shrink" onclick="onClick(this)" class="modal-hover-opacity"></div></div>
+</div></div></div></div>
+<script>
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+}
+</script>
+
+<div class="row bleh" id="contact"> <div class="genrow pagebg"> <div class="container">
+<h1 class="paddinn contact"> CONTACT US </h1>
+<div class="col-sm-6"><input type="text" placeholder="Name" class="form-control frm"></div>
+<div class="col-sm-6"><input type="email" placeholder="Email" class="form-control frm"></div>
+<div class="col-sm-12"><textarea type="text" placeholder="Message*" class="form-control frm" rows="5"></textarea></div>
+<button type="button" class="btnn">SUBMIT</button>
+</div></div></div>
+</div>
+<footer class="footer">
+<div class="container">
+<div class="row footer-grids"><div class="col-lg-2 col-6 footer-grid">
+<ul class="list-unstyled">
+	<h3 class="mb-sm-4 mb-3">Navigation</h3>
+<li class="li1"><a href="#">Index</a></li>
+<li class="li1"><a href="#">About Us</a></li>
+<li class="li1"><a href="#">What We Do?</a></li>
+<li class="li1"><a href="#">Our Gallery</a></li>
+</ul></div>
+<div class="col-lg-2 col-6 footer-grid">
+<ul class="list-unstyled">
+	<h3 class="mb-sm-4 mb-3">Some More</h3>
+<li class="li1"><a href="#">Apply Now</a></li>
+<li class="li1"><a href="#">Our Events</a></li>
+<li class="li1"><a href="#">Popular Courses</a></li>
+</ul>
+</div>
+
+<div class="col-lg-2 col-6 footer-grid">
+<ul class="list-unstyled">
+	<h3 class="mb-sm-4 mb-3">Get In Touch</h3>
+<li class="li1"><a href="#">(0260)1234</a></li>
+<li class="li1"><a href="#">myschool@gmail</a></li>
+</ul>
+</div>
+
+<div class="col-lg-2 col-6 footer-grid">
+<ul class="list-unstyled">
+<li class="top li1"><a href="#">Our Statistics</a></li>
+<li class="li1"><a href="#">Login</a></li>
+<li class="li1"><a href="#">Register</a></li>
+<li class="li1"><a href="#">Contact Us</a></li>
+</ul>
+</div>
+
+<div class="col-lg-4 footer-grid ">
+<h2 class=" text-center pdt">
+	<a href="#">
+										My School</a>
+</h2>
+</div></div></div>
+<div class="foot"><div class="container">
+<p class="last text-center">&copy;2017 MY SCHOOL. ALL RIGHTS RESERVED
+</div>
+<a href="#" id="scroll" style="display: none;"><span></span></a>
+	<script>
+	$(document).ready(function(){
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 100) {
+            $('#scroll').fadeIn();
+        } else {
+            $('#scroll').fadeOut();
+        }
+    });
+    $('#scroll').click(function(){
+        $("html, body").animate({ scrollTop: 0 }, 600);
+        return false;
+    });
+});
+	</script>
+
+</footer>
+
+
+</body>
+</html>
